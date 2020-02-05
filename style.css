@@ -1,0 +1,101 @@
+*{
+	font-family: w33;
+}
+
+@font-face
+{
+	font-family: w33;
+	src:url('aa.ttf');
+}
+
+a{
+	font-family: "w33";
+}
+
+#banner
+{
+	background: linear-gradient(to bottom,rgba(218,165,146,3)0, rgba(218,165,146,.4)100%),url(images/g5.jpg);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+#navtitle
+{
+	padding-top:150px;
+}
+
+#divider
+{
+	/*/* rem =16px;*/
+
+	max-width: 3.25rem;
+	border-width: .2rem;
+	border-color: #ec037c;
+}
+
+#contactbtn
+{
+	padding: 1.25rem 2.25rem;
+	font-size: /85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border:none;
+	border-radius: 10rem;
+	background-color: #ec037c;	
+	color: white;
+}
+
+#counter
+{
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/g8.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 35px;
+}
+#letter
+{
+	font-family: bb;
+	position: absolute;
+	top: 5%
+	left: 30%;
+	font-size: 10px;
+	background-color: rgba(225,225,225,0.5);
+	padding: 10px 50px;
+
+	display: block;
+	text-align: center;
+}
+
+
+nav.scrolled
+{
+	background-color: #f48fb1;
+}
+
+
+#banner1
+{
+	background: linear-gradient(to bottom,rgba(218,165,146,3)0, rgba(218,165,146,.4)100%),url(images/g12.jpg);
+	width: 100%;
+	height: 350px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+#contactbtn1
+{
+	padding: 1.25rem 2.25rem;
+	font-size: /85rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border:none;
+	border-radius: 10rem;
+	background-color: #ec037c;	
+	color: white;
+}
